@@ -129,13 +129,13 @@ p {
 }
 
 .button-google {
-    background-image: url('/src/img/google.png');
+    background-image: url('./img/google.png');
     background-repeat: no-repeat;
     background-position: 4%;
 }
 
 .button-facebook {
-    background-image: url('/src/img/facebook.png');
+    background-image: url('./img/facebook.png');
     background-repeat: no-repeat;
     background-position: 4%;
 
