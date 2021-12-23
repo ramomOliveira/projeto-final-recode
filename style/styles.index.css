@@ -10,18 +10,7 @@ body {
     padding: 0;
 }
 
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F49E0B;
-    color: #000;
-}
 
 #img-logo {
     width: 50px;
-}
-
-.nav-links a:hover {
-    color: rgb(252, 185, 69);
 }
