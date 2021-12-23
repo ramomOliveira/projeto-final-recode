@@ -18,15 +18,6 @@ body {
     color: #000;
 }
 
-.nav-links{
-    padding: 0 30px;
-}
-
-.nav-links > a{
-    margin-right: 10px;
-    text-decoration: none;
-}
-
 #img-logo {
     width: 50px;
 }
