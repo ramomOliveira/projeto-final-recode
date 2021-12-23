@@ -10,7 +10,40 @@ body {
     padding: 0;
 }
 
-
 #img-logo {
     width: 50px;
+}
+
+#cover{
+    background-image: url("/img/capa2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-card-agenda{
+    background-image: url("/img/img-agenda1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+#img-card-agenda2{
+    background-image: url("/img/img-agenda2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+#img-card-agenda3{
+    background-image: url("/img/img-agenda3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
 }
