@@ -27,9 +27,8 @@ body {
     text-decoration: none;
 }
 
-.img-logo > img{
-    width: 100px;
-    padding: 15px;
+#img-logo {
+    width: 50px;
 }
 
 .nav-links a:hover {
