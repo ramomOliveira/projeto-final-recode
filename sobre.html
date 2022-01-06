@@ -51,7 +51,7 @@
                     </ul>
                     <form class="d-flex me-2 my-2">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Buscar</button>
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
                     </form>
                     <button class="btn btn-secondary me-2" type="button">Cadastrar</button>
                     <button class="btn btn-secondary" type="button">Login</button>
@@ -61,9 +61,83 @@
     </header>
 
     <!--Main-->
-    <div>
-        <h1>Sobre</h1>
-    </div>
+    <main>
+        <div class="container d-md-flex align-items-center my-5">
+            <div class="me-5">
+                <h1 class="text-uppercase text-primary">Sobre</h1>
+            </div>
+            <div>
+                <p>
+                    Projeto Oluchi é uma plataforma afro-brasileira de mapeamento e difusão de artistas negros/as/es. O
+                    projeto deseja ampliar e visibilizar a produção artística de autoria negra no Brasil, apresentando
+                    sua multiplicidade, seus inter-relacionamentos e sua abrangência. Um espaço de descoberta e
+                    ressignificação.</br></br>
+
+                    A iniciativa se entende como um manifesto em defesa da igualdade racial, quando observados os dados
+                    sociais que ainda mostram o negro à margem do processo social. O Projeto Afro expressa o
+                    protagonismo negro para além dos limites territoriais, refletindo sobre os processos históricos
+                    hegemônicos que validaram o sistema de arte no país. Propomos um novo olhar para as narrativas a
+                    partir da colaboração e da troca.</br></br>
+
+                    Fruto de uma pesquisa que compreende mais de três anos – e que segue em curso –, o conteúdo reunido
+                    convida cada visitante a navegar por diferentes aspectos dessa produção: mapa interativo, perfis de
+                    artistas, artigos colaborativos e entrevistas, escritos acadêmicos, sugestões de eventos. Toda uma
+                    pesquisa sistematizada em um local dedicado à expressão.</br></br>
+
+                    Explore. Conheça. Faça parte.
+                </p>
+            </div>
+        </div>
+
+        <!--Contato-->
+        <div class="bg-secondary my-5">
+            <div class="container p-5">
+
+                <!--Formulario para contato-->
+                <div>
+                    <div>
+                        <h1>Contato</h1>
+                    </div>
+                    <div>
+                        <!--Formulario-->
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="firstName" class="text-white form-label">Nome</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="text-white form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" id="linkPortifolio">
+                            </div>
+                            <div class="col-12">
+                                <label for="exampleFormControlTextarea1" class="form-label text-white">Mensagem</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="text-white btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!--Imagem contato-->
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="text-center fst-italic text-uppercase">
+            <p>© Todos direitos reservardos - Oluchi RecodePro</p>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

@@ -13,8 +13,8 @@
 <body>
     <!--header com nav bar-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="/">
                     <img id="img-logo" src="/img/logo.png">
                 </a>
@@ -22,7 +22,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon text-primary"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -51,7 +51,7 @@
                     </ul>
                     <form class="d-flex me-2 my-2">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Buscar</button>
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
                     </form>
                     <button class="btn btn-secondary me-2" type="button">Cadastrar</button>
                     <button class="btn btn-secondary" type="button">Login</button>
@@ -61,9 +61,104 @@
     </header>
 
     <!--Main-->
-    <div>
-        <h1>Notícias</h1>
-    </div>
+    <main class="bg-primary">
+        <h1 class="text-white pt-5 ps-3 text-uppercase ps-md-5">Notícias</h1>
+        <div class="row row-cols-md-4 mx-auto container py-md-5 justify-content-center">
+            <!--Cards de notícias-->
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    Artigos acadêmicos
+                </h2>
+                <p>
+                    Nesta seção, você encontra uma seleção de publicações acadêmicas com temáticas em torno das questões
+                    entre arte e raça. Ao clicar, redirecionamos você para os sites de origem de cada uma delas.
+                </p>
+
+            </div>
+
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    TERREIRO CONTEMPORÂNEO: O NEGRO PELA PERSPECTIVA DO VISITANTE DO MUSEU AFRO BRASIL
+
+                </h2>
+                <p>
+                    DENISE DOS SANTOS RODRIGUES
+
+                    UNIVERSIDADE DE SÃO PAULO
+
+                    ARTIGOS ACADÊMICOS
+
+                    2015
+                </p>
+
+            </div>
+
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    O MUSEU E A IDENTIDADE BRASILEIRA: MUSEU AFRO BRASIL
+
+                </h2>
+                <p>
+                    ISABELA GATTI PEREIRA RODRIGUES
+
+                    UNIVERSIDADE DE SÃO PAULO
+
+                    ARTIGOS ACADÊMICOS
+
+                    2012
+                </p>
+
+            </div>
+
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    RECONHECIMENTO E DIVULGAÇÃO DA CULTURA AFRICANA E AFRO-BRASILEIRA (ESTUDOS SOBRE O MUSEU AFRO
+                    BRASIL)
+                </h2>
+                <p>
+                    MARINA SOLEO FUNARI
+
+                    UNIVERSIDADE DE SÃO PAULO
+
+                    ARTIGOS ACADÊMICOS
+
+                    2011
+                </p>
+
+            </div>
+
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    Artigos acadêmicos
+                </h2>
+                <p>
+                    Nesta seção, você encontra uma seleção de publicações acadêmicas com temáticas em torno das questões
+                    entre arte e raça. Ao clicar, redirecionamos você para os sites de origem de cada uma delas.
+                </p>
+
+            </div>
+
+            <div class="p-2 p-md-5">
+                <h2 class="text-uppercase mb-3">
+                    Artigos acadêmicos
+                </h2>
+                <p>
+                    Nesta seção, você encontra uma seleção de publicações acadêmicas com temáticas em torno das questões
+                    entre arte e raça. Ao clicar, redirecionamos você para os sites de origem de cada uma delas.
+                </p>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="text-center fst-italic text-uppercase">
+            <p>© Todos direitos reservardos - Oluchi RecodePro</p>
+        </div>
+    </footer>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
