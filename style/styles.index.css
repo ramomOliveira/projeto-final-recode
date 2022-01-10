@@ -19,6 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 31.25rem;
 }
 
 #img-card-agenda{
